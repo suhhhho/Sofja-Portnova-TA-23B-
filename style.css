@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+html, body {
+  height: 100%;
+  background-color: #F5F5F5;
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font: bold 24px sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.logo img { height: 30px; margin-right: 10px; }
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.nav-items img { width: 24px; cursor: pointer; }
+.login, .lang-dropdown { cursor: pointer; }
+
+.step-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  background-color: #d9d9d9;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.step.active .circle { background: #555; color: white; border-color: #555; }
+
+.circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  border: 2px solid black;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.domain-search {
+  background-color: #d9d9d9;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.domain-results {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.domain-list .domain-item {
+  background-color: #e0e0e0;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-bottom: 8px;
+}
+
+.hero-section {
+  background-color: #FFF;
+  padding: 100px 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.content-section {
+  max-width: 90%;
+  width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #FFF;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.content-paragraph {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.footer {
+  background-color: #C7C7C7;
+  padding: 70px;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #666;
+  min-height: 100%;
+}
